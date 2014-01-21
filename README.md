@@ -16,6 +16,7 @@ When we started the work on JIsrael, it was made as an open source project for t
 * Full control on colors from Template manager
 * Option to change the login page
 * No images - only CSS, if you dont count the logo image :P
+* Font Selection, Alef, Open-Sans
 
 JIsrael package installation file include
 * Template
