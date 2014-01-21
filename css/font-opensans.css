@@ -1,0 +1,5 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+body{  font-family: 'Open Sans Hebrew',"Helvetica Neue", Helvetica, Arial,sans-serif;}
+input,button,select,textarea {	font-family: 'Open Sans Hebrew',"Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* End Fonts */

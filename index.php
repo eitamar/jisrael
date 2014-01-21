@@ -26,11 +26,12 @@ $doc->addStyleSheetVersion('templates/' . $this->template . '/css/template' . ($
 
 // Load specific language related CSS
 $file = 'language/' . $lang->getTag() . '/' . $lang->getTag() . '.css';
+if (is_file($file)){	$doc->addStyleSheetVersion($file);}
 
-if (is_file($file))
-{
-	$doc->addStyleSheetVersion($file);
-}
+//fonts css file
+$file = 'templates/' . $this->template . '/css/font-'.$this->params->get('font').'.css';
+if (is_file($file)){	$doc->addStyleSheetVersion($file);}else{echo $file;}
+//jisrael css file
 $doc->addStyleSheetVersion('templates/' . $this->template . '/css/jisrael.css');
 
 // Detecting Active Variables

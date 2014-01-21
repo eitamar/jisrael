@@ -5,17 +5,10 @@
 ; @license     GNU General Public License version 2 or later; see LICENSE.txt
 ; @since       3.0
 */
-/* Fonts */
-@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
-body{  font-family: "Alef Hebrew","Helvetica Neue", Helvetica, Arial,sans-serif;}
-input,button,select,textarea {	font-family: "Alef Hebrew","Helvetica Neue", Helvetica, Arial, sans-serif;}
-/* End Fonts */
-
-
 
 
 @media (min-width: 1600px) {
-	body {	padding-top: 87px;}
+	body {	padding-top: 86px;}
 	.container-main, #system-debug {padding-bottom: 30px;}
 	/*	Sidebar on Control Panel view*/
 	.blue-sidebar{	background-color: #3183b3;	padding-right: 25px;	padding-left: 50px; }
@@ -44,7 +37,7 @@ input,button,select,textarea {	font-family: "Alef Hebrew","Helvetica Neue", Helv
 	.blue-sidebar a.brand{	display:block;	}
 	
 	/*cpanel - homepage*/
-	.cpanel-icons-container{padding-top:80px;}
+	.cpanelicon-main{padding-top: 90px;}
 	.cpanel-icons{	margin-bottom: 60px;background-color: #3183b3;}
 	.cpanel-icons.blacked{	background-color: #474747;	}
 	.cpanel-icons [class*="span12"]{float: right;	margin-right: 0.6%;	margin-left: 1.6% !important;}
@@ -65,10 +58,10 @@ input,button,select,textarea {	font-family: "Alef Hebrew","Helvetica Neue", Helv
 	body {	padding-top: 78px;}
 	.container-main, #system-debug {padding-bottom: 30px;}
 	/*	Sidebar on Control Panel view*/
-	.blue-sidebar{	background-color: #3183b3;	padding-right: 15px;	padding-left: 20px; }
+	.blue-sidebar{	background-color: #3183b3;	padding-right: 25px;	padding-left: 50px; }
 	#content .blue-sidebar{ padding-bottom: 80px; }
-	.blue-sidebar > div{	margin-top:10px; margin-bottom: 10px; }
-	.blue-sidebar .well .module-title.nav-header{font-size:18px; line-height: 22px; color:#474747;}
+	.blue-sidebar > div{	margin-top:15px; margin-bottom: 15px; }
+	.blue-sidebar .well .module-title.nav-header{font-size:24px; line-height: 28px; color:#474747;}
 	/* top navigation */
 	nav > .navbar-inner{	padding-top: 10px; padding-bottom: 10px; }
 	.navbar-inner  ul {}
@@ -91,7 +84,7 @@ input,button,select,textarea {	font-family: "Alef Hebrew","Helvetica Neue", Helv
 	.blue-sidebar a.brand{	display:block;	}
 	
 	/*cpanel - homepage*/
-	.cpanel-icons-container{padding-top:60px;}
+	.cpanelicon-main{padding-top: 60px;}
 	.cpanel-icons{	margin-bottom: 60px;background-color: #3183b3;}
 	.cpanel-icons.blacked{	background-color: #474747;	}
 	.cpanel-icons [class*="span12"]{float: right;	margin-right: 0.6%;	margin-left: 1.6% !important;}
@@ -100,100 +93,22 @@ input,button,select,textarea {	font-family: "Alef Hebrew","Helvetica Neue", Helv
 	.j-links-groups .tlc-button{background-color: #f4f4f4;	position:relative;	top:3px; left:-11px; border:1px solid #f4f4f4; border-radius: 3px;	}
 	.j-links-groups .tlc-button a{	height: 28px;	line-height:28px;font-size:15px;font-weight:bold;display: block;text-align:center;	}
 	.cpanel-icons ul.j-links-group.nav{	}
-	.cpanel-icons ul.j-links-group.nav li{	height:120px;	background-color: #f4f4f4; }
+	.cpanel-icons ul.j-links-group.nav li{	height:160px;	background-color: #f4f4f4; }
 	.cpanel-icons ul.j-links-group.nav li:hover{}
 	.cpanel-icons ul.j-links-group.nav li a{height:inherit;	text-align:center;}
 	.cpanel-icons ul.j-links-group.nav li a span{position:relative;	bottom: 0px; left:0px; width:100%;}
-	.cpanel-icons ul.j-links-group.nav li a i{clear:both; font-size:35px; color:#3183b3; width:100%; line-height: 100px; }
-	.cpanel-icons ul.j-links-group.nav li:hover a i{color:#002339;	}
+	.cpanel-icons ul.j-links-group.nav li a i{clear:both; font-size:35px; color:#3183b3; width:100%; line-height: 130px; }
+	.cpanel-icons ul.j-links-group.nav li:hover a i{clear:both;	font-size:35px;	color:#002339;	width:100%;	line-height: 130px;	}
 		
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
-	body {	padding-top: 78px;}
-	.container-main, #system-debug {padding-bottom: 30px;}
-	/*	Sidebar on Control Panel view*/
-	.blue-sidebar{	background-color: #3183b3;	padding-right: 15px;	padding-left: 20px; }
-	#content .blue-sidebar{ padding-bottom: 80px; }
-	.blue-sidebar > div{	margin-top:10px; margin-bottom: 10px; }
-	.blue-sidebar .well .module-title.nav-header{font-size:18px; line-height: 22px; color:#474747;}
-	/* top navigation */
-	nav > .navbar-inner{	padding-top: 10px; padding-bottom: 10px; }
-	.navbar-inner  ul {}
-	.navbar-inner  ul > li {font-size: 18px; line-height: 18px; font-weight: bold;}
-	.navbar-inner  ul > li.current {background-color:#3183b3; border-radius: 5px;}
-	.navbar-inner .container-fluid {padding-top: 11px;	padding-bottom: 11px;	}
-	.navbar .admin-logo {margin-left: 10px; padding: 8px 0px 0px 0px;font-size: 23px; line-height: 25px;}
-	.navbar .nav-collapse .admin-logo{font-size: 18px; line-height: 18px; padding: 6px 0 0 0; margin-right:0%; color:#00afef; font-weight: bold;}
-	.navbar-inner .nav-collapse .nav-user a.dropdown-toggle span.icon-cog{ width:23px; height:auto; padding: 5px 0px 0px 0px;	}
-	.nav-collapse .nav-user .dropdown-menu li {	 font-size:14px;}
-	.navbar-inner a.logoutlink{display:none!important;}
-	/* top user dropdown nav */
-	.navbar .admin-logo .icon-joomla {font-size: 30px; width:30px; height:auto;	color: #26a8b5; }
-	.container-logo {float: right; text-align: right;}
-	
-	/*sidebar*/
-	.blue-sidebar a.brand{	display:block;	}
-	
-	/*cpanel - homepage*/
-	.cpanel-icons-container{padding-top:60px;}
-	.cpanel-icons{	margin-bottom: 60px;background-color: #3183b3;}
-	.cpanel-icons.blacked{	background-color: #474747;	}
-	.cpanel-icons [class*="span12"]{float: right;	margin-right: 0.6%;	margin-left: 1.6% !important;}
-	.cpanel-icons div.j-links-groups{padding:0 10px 10px 10px;	}
-	.cpanel-icons h2.nav-header{font-size: 30px;line-height:32px;height: auto;	vertical-align: top;color:#fffaff;	}
-	.j-links-groups .tlc-button{background-color: #f4f4f4;	position:relative;	top:3px; left:-8px; border:1px solid #f4f4f4; border-radius: 3px;	}
-	.j-links-groups .tlc-button a{	height: 28px;	line-height:28px;font-size:13px;font-weight:bold;display: block;text-align:center;	}
-	.cpanel-icons ul.j-links-group.nav{	}
-	.cpanel-icons ul.j-links-group.nav li{	height:120px;	background-color: #f4f4f4; }
-	.cpanel-icons ul.j-links-group.nav li:hover{}
-	.cpanel-icons ul.j-links-group.nav li a{height:inherit;	text-align:center;}
-	.cpanel-icons ul.j-links-group.nav li a span{position:relative;	bottom: 0px; left:0px; width:100%;}
-	.cpanel-icons ul.j-links-group.nav li a i{clear:both; font-size:35px; color:#3183b3; width:100%; line-height: 100px; }
-	.cpanel-icons ul.j-links-group.nav li:hover a i{color:#002339;	}
+	.navbar-inner a.logoutlink{
+		display:none;
+	}
+	.cpanelicon-main{padding-top: 60px;}
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-	body {	padding-top: 78px;}
-	.container-main, #system-debug {padding-bottom: 30px;}
-	/*	Sidebar on Control Panel view*/
-	.blue-sidebar{	background-color: #3183b3;	padding-right: 15px;	padding-left: 20px; }
-	#content .blue-sidebar{ padding-bottom: 80px; }
-	.blue-sidebar > div{	margin-top:10px; margin-bottom: 10px; }
-	.blue-sidebar .well .module-title.nav-header{font-size:18px; line-height: 22px; color:#474747;}
-	/* top navigation */
-	nav > .navbar-inner{	padding-top: 10px; padding-bottom: 10px; }
-	.navbar-inner  ul {}
-	.navbar-inner  ul > li {font-size: 18px; line-height: 18px; font-weight: bold;}
-	.navbar-inner  ul > li.current {background-color:#3183b3; border-radius: 5px;}
-	.navbar-inner .container-fluid {padding-top: 11px;	padding-bottom: 11px;	}
-	.navbar .admin-logo {margin-left: 10px; padding: 8px 0px 0px 0px;font-size: 23px; line-height: 25px;}
-	.navbar .nav-collapse .admin-logo{font-size: 18px; line-height: 18px; padding: 6px 0 0 0; margin-right:0%; color:#00afef; font-weight: bold;}
-	.navbar-inner .nav-collapse .nav-user a.dropdown-toggle span.icon-cog{ width:23px; height:auto; padding: 5px 0px 0px 0px;	}
-	.nav-collapse .nav-user .dropdown-menu li {	 font-size:14px;}
-	.navbar-inner a.logoutlink{display:none!important;}
-	/* top user dropdown nav */
-	.navbar .admin-logo .icon-joomla {font-size: 30px; width:30px; height:auto;	color: #26a8b5; }
-	.container-logo {float: right; text-align: right;}
 	
-	/*sidebar*/
-	.blue-sidebar a.brand{	display:block;	}
-	.blue-sidebar .row-striped .row-fluid {	padding: 7px 0px 7px 0px;}
-	
-	/*cpanel - homepage*/
-	.cpanel-icons-container{padding-top:60px;}
-	.cpanel-icons{	margin-bottom: 60px;background-color: #3183b3;}
-	.cpanel-icons.blacked{	background-color: #474747;	}
-	.cpanel-icons [class*="span12"]{float: right;	margin-right: 0.6%;	margin-left: 1.6% !important;}
-	.cpanel-icons div.j-links-groups{padding:0 10px 10px 10px;	}
-	.cpanel-icons h2.nav-header{width:50%; margin:5px 0; font-size: 18px; line-height:20px;height: auto;	vertical-align: top;color:#fffaff;	}
-	.j-links-groups .tlc-button{width:47%; background-color: #f4f4f4;	position:relative;	top:3px; left:-8px; border:1px solid #f4f4f4; border-radius: 3px;	}
-	.j-links-groups .tlc-button a{	height: 28px;	line-height:28px;font-size:13px;font-weight:bold;display: block;text-align:center;	}
-	.cpanel-icons ul.j-links-group.nav{	}
-	.cpanel-icons ul.j-links-group.nav li{	height:90px;	background-color: #f4f4f4; }
-	.cpanel-icons ul.j-links-group.nav li:hover{}
-	.cpanel-icons ul.j-links-group.nav li a{height:inherit;	text-align:center;}
-	.cpanel-icons ul.j-links-group.nav li a span{position:relative;	bottom: 0px; left:0px; width:100%;}
-	.cpanel-icons ul.j-links-group.nav li a i{clear:both; font-size:25px; color:#3183b3; width:100%; line-height: 70px; }
-	.cpanel-icons ul.j-links-group.nav li:hover a i{color:#002339;	}
 }
 @media (min-width: 480px) and (max-width: 767px) {
 	

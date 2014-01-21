@@ -11,7 +11,6 @@
 	<files>
 		<filename>component.php</filename>
 		<filename>cpanel.php</filename>
-		<filename>error.php</filename>
 		<filename>favicon.ico</filename>
 		<filename>index.php</filename>
 		<filename>login.php</filename>
@@ -41,11 +40,11 @@
 		<position>login</position>
 		<position>debug</position>
 	</positions>
-	<languages>
-		<language tag="en-GB">language/en-GB/en-GB.tpl_jisrael.ini</language>
-		<language tag="en-GB">language/en-GB/en-GB.tpl_jisrael.sys.ini</language>
-		<language tag="he-IL">language/he-IL/he-IL.tpl_jisrael.ini</language>
-		<language tag="he-IL">language/he-IL/he-IL.tpl_jisrael.sys.ini</language>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_jisrael.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_jisrael.sys.ini</language>
+		<language tag="he-IL">he-IL/he-IL.tpl_jisrael.ini</language>
+		<language tag="he-IL">he-IL/he-IL.tpl_jisrael.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
@@ -72,7 +71,7 @@
 			
 			<fieldset name="advanced">
 
-				<field name="templateColor" class="" type="color" default="#34373c"
+				<field name="templateColor" class="" type="color" default="#13294A"
 				validate="color"
 				label="TPL_JISRAEL_COLOR_LABEL"
 				description="TPL_JISRAEL_COLOR_DESC" />
@@ -136,6 +135,18 @@
 					value="1">JYES</option>
 				<option
 					value="0">JNO</option>
+				</field>
+				
+				<field name="font" type="radio"
+				class="btn-group btn-group-yesno"
+				default="alef"
+				label="TPL_JISRAEL_FIELD_FONT_LABEL"
+				description="TPL_JISRAEL_FIELD_FONT_DESC"
+				>
+				<option
+					value="alef">TPL_JISRAEL_FONT_ALEF</option>
+				<option
+					value="opensans">TPL_JISRAEL_FONT_OPENSANS</option>
 				</field>
 
 			</fieldset>
