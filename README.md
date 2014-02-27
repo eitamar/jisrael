@@ -6,7 +6,7 @@ It is based on ISIS Template (by Kyle Ledbetter) and have full responsive capabi
 
 What we were trying to achive is making Joomla! administrator view more welcomeing while putting our focuses on optimizing usability, improving efficiency, and maintaining functionality and customizability.
 
-demo website: http://demo.j-guru.com/jisrael/
+demo website: http://demo.j-guru.com/jisrael/administrator/
 
 When we started the work on JIsrael, it was made as an open source project for the Israeli Joomla! community, so we decided to put our effort on these key points:
 
