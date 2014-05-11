@@ -18,6 +18,13 @@ When we started the work on JIsrael, it was made as an open source project for t
 * No images - only CSS, if you dont count the logo image :P
 * Font Selection, Alef, Open-Sans
 
+Supported Languages:
+* Hebrew
+* Arabic - Special thanks to Majdi Halabi
+* if you want to contribute another language it will be great.
+
+
+
 JIsrael package installation file include
 * Template
 * CPanel Icon module - new module which handle the admin homepage display
