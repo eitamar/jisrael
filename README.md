@@ -19,6 +19,7 @@ When we started the work on JIsrael, it was made as an open source project for t
 * Font Selection, Alef, Open-Sans
 
 Supported Languages:
+* English
 * Hebrew
 * Arabic - Special thanks to Majdi Halabi
 * if you want to contribute another language it will be great.

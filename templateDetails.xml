@@ -2,11 +2,11 @@
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.1" type="template" client="administrator">
 	<name>jisrael</name>
-	<version>1.0</version>
-	<creationDate>3/30/2012</creationDate>
+	<version>1.0.1</version>
+	<creationDate>5/11/2014</creationDate>
 	<author>Itamar Elharar</author>
 	<authorEmail>eitamar@j-guru.org</authorEmail>
-	<copyright>Copyright (C) 2013 Itamar Elharar. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2014 Itamar Elharar. All rights reserved.</copyright>
 	<description>TPL_JISRAEL_XML_DESCRIPTION</description>
 	<files>
 		<filename>component.php</filename>
